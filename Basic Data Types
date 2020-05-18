@@ -1,0 +1,18 @@
+#include <iostream>
+#include <cstdio>
+using namespace std;
+
+int main() {
+    int num;
+    long num1;
+    char ch;
+    float num2;
+    double num3;
+    cin>>num>>num1>>ch>>num2>>num3;
+    cout<<num<<endl;
+    cout<<num1<<endl;
+    cout<<ch<<endl;
+    printf("%f\n",num2);
+    printf("%lf",num3);
+    return 0;
+}
